@@ -1,0 +1,32 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(8, 50px); 
+    gap: 2px;
+    margin-top: 20px;
+  }
+  
+  .cell {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(49, 167, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid #004400;
+  }
+  
+  .piece {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .piece.black {
+    background-color: black;
+  }
+  
+  .piece.white {
+    background-color: white;
+  }
+  
